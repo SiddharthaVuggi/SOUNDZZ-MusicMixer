@@ -27,8 +27,7 @@ Fork the repository.
 Create a new branch for your feature or bug fix.
 Make your changes and ensure they are well-tested.
 Submit a pull request with a detailed explanation of your changes.
-License
-This project is licensed under the MIT License.
+
 
 Contact
 If you have any questions or suggestions, please feel free to contact us at vuggisiddhartha@gmail.com
