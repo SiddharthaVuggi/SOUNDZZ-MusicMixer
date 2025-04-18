@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login and Registration Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles0.css">
+
+</head>
+<body background="gif.gif" >
+
+    <h2>Login & Registration</h2>
+    <div class="container">
+        <form id="login-form"  action="http://localhost:3000/formex1"  method="get" >  
+            
+            <h3>Login</h3>
+            <div>
+            <label for="email" ><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" required>
+        </div>
+
+        <div>
+            <label for="password"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="password" required>
+        </div>
+
+        <form  method = "get" action="http://localhost:3000/formex1" ><button >LOGIN</button></form> 
+
+
+        <p>Don't have an account? <a href="#" onclick="showRegistration()">Register now</a></p>
+        </form>
+
+        <form id="registration-form" style="display:none"action="/login" method="post" >
+            <h3>Registration</h3>
+            <label for="name"><b>Name</b></label>
+            <input type="text" placeholder="Enter Name" name="name" required>
+
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" required>
+
+            <label for="password"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="password" required>
+
+            <label for="dob"><b>Date of Birth</b></label>
+            <input type="date" name="dob" required>
+
+
+            <form  method = "get" action="http://localhost:3000/formex0" ><button type="submit">Register</button></form> 
+
+        </form>
+    </div>
+
+     <script>
+        function showRegistration() {
+            document.getElementById("login-form").style.display = "none";
+            document.getElementById("registration-form").style.display = "block";
+        }
+        
+    </script> 
+</body>
+</html>

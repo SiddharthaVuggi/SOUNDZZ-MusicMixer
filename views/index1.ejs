@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SOUNDZZZ</title>
+    <link rel="stylesheet" href="styles1.css">
+  </head>
+  <body>
+    <form action="http://localhost:3000/formex0"  method="get"> 
+    <h1>SOUNDZZZ</h1>
+    <marquee width="80%" direction="left" height="25px" style="color: black;">
+      <strong>Use headphones for better experience :) </strong>
+      </marquee>
+      <div id="categories">
+      <div class="category">
+        <h2>RELAXING</h2>
+        <ul>
+          <li><a href="#" onclick="playSound('ocean')">OCEAN</a></li>  
+          <li><a href="#" onclick="playSound('rain')">RAIN</a></li>
+          <li><a href="#" onclick="playSound('lofi')">LOFI</a></li>
+          <li><a href="#" onclick="playSound('forest')">FOREST</a></li>
+          <li><a href="#" onclick="playSound('relax')">RELAX</a></li>
+          <li><a href="#" onclick="playSound('calm')">CALM</a></li>
+          <li><a href="#" onclick="playSound('folk')">FOLK</a></li>
+          <li><a href="#" onclick="playSound('peace')">PEACE</a></li>
+          <li><a href="#" onclick="playSound('night')">NIGHT</a></li>
+          <li><a href="#" onclick="playSound('river')">RIVER</a></li>
+        </ul>
+      </div>
+
+      <div class="category">
+        <h2>INSTRUMENTS</h2>
+        <ul>
+          <li><a href="#" onclick="playSound('piano')">PIANO</a></li>
+          <li><a href="#" onclick="playSound('guitar')">GUITAR</a></li>
+          <li><a href="#" onclick="playSound('drums')">DRUMS</a></li>
+          <li><a href="#" onclick="playSound('violin')">VIOLIN</a></li>
+          <li><a href="#" onclick="playSound('tabla')">TABALA</a></li>
+          <li><a href="#" onclick="playSound('flute')">FLUTE</a></li>
+          <li><a href="#" onclick="playSound('trumpet')">TRUMPET</a></li>
+          <li><a href="#" onclick="playSound('dappu')">DAPPU</a></li>
+          <li><a href="#" onclick="playSound('clarinet')">CLARINET</a></li>
+          <li><a href="#" onclick="playSound('Harmonica')">HARMONICA</a></li>
+        </ul>
+      </div>
+
+      <div class="category">
+        <h2>ANIMALS</h2>
+        <ul>
+          <li><a href="#" onclick="playSound('cat')">CAT</a></li>
+          <li><a href="#" onclick="playSound('lion')">LION</a></li>
+          <li><a href="#" onclick="playSound('tiger')">TIGER</a></li>
+          <li><a href="#" onclick="playSound('elephant')">ELEPHANT</a></li>
+          <li><a href="#" onclick="playSound('frog')">FROG</a></li>
+          <li><a href="#" onclick="playSound('goat')">GOAT</a></li>
+          <li><a href="#" onclick="playSound('cow')">COW</a></li>
+          <li><a href="#" onclick="playSound('dog')">DOG</a></li>
+          <li><a href="#" onclick="playSound('pig')">PIG</a></li>
+          <li><a href="#" onclick="playSound('horse')">HORSE</a></li>
+        </ul>
+      </div>
+
+      <div class="category">
+        <h2>VEHICLES</h2>
+        <ul>
+          <li><a href="#" onclick="playSound('car')">CAR</a></li>
+          <li><a href="#" onclick="playSound('motorcycle')">MOTORCYCLE</a></li>
+          <li><a href="#" onclick="playSound('aeroplane')">AEROPLANE</a></li>
+          <li><a href="#" onclick="playSound('boat')">BOAT</a></li>
+          <li><a href="#" onclick="playSound('helicopter')">HELICOPTER</a></li>
+          <li><a href="#" onclick="playSound('ambulance')">AMBULANCE</a></li>
+          <li><a href="#" onclick="playSound('police')">POLICE</a></li>
+          <li><a href="#" onclick="playSound('royal')">BULLECT</a></li>
+          <li><a href="#" onclick="playSound('tractor')">TRACTOR</a></li>
+          <li><a href="#" onclick="playSound('cycle')">CYCLING</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <audio id="ocean" src="ocean.mp3"></audio>
+    <audio id="rain" src="rain.mp3"></audio>
+    <audio id="lofi" src="lofi.mp3"></audio>
+    <audio id="forest" src="forest.mp3"></audio>
+    <audio id="relax" src="relax.mp3"></audio>
+    <audio id="calm" src="calm.mp3"></audio>
+    <audio id="folk" src="folk.mp3"></audio>
+    <audio id="peace" src="peace.mp3"></audio>
+    <audio id="night" src="night.mp3"></audio>
+    <audio id="river" src="river.mp3"></audio>
+
+    
+    <audio id="piano" src="piano.mp3"></audio>
+    <audio id="guitar" src="guitar.mp3"></audio>
+    <audio id="drums" src="drums.mp3"></audio>
+    <audio id="violin" src="violin.mp3"></audio>
+    <audio id="tabla" src="Tabla.mp3"></audio>
+    <audio id="flute" src="flute.mp3"></audio>
+    <audio id="trumpet" src="trumpet.mp3"></audio>
+    <audio id="dappu" src="folk.mp3"></audio>
+    <audio id="clarinet" src="clarinetist.mp3"></audio>
+    <audio id="Harmonica" src="Harmonium.mp3"></audio>
+
+    <audio id="cat" src="cat.mp3"></audio>
+    <audio id="lion" src="lion1.mp3"></audio>
+    <audio id="tiger" src="tiger.mp3"></audio>
+    <audio id="elephant" src="elephant.mp3"></audio>
+    <audio id="frog" src="frog.mp3"></audio>
+    <audio id="goat" src="goat.mp3"></audio>
+    <audio id="cow" src="cow.mp3"></audio>
+    <audio id="dog" src="dog.mp3"></audio>
+    <audio id="pig" src="pig.mp3"></audio>
+    <audio id="horse" src="horse.mp3"></audio>
+
+    <audio id="car" src="car.mp3"></audio>
+    <audio id="motorcycle" src="bike.mp3"></audio>
+    <audio id="aeroplane" src="plane.mp3"></audio>
+    <audio id="boat" src="boat.mp3"></audio>
+    <audio id="helicopter" src="helicopter.mp3"></audio>
+    <audio id="ambulance" src="ambulance.mp3"></audio>
+    <audio id="police" src="police.mp3"></audio>
+    <audio id="royal" src="bullet.mp3"></audio>
+    <audio id="tractor" src="tractor.mp3"></audio>
+    <audio id="cycle" src="cycle.mp3"></audio>
+
+    </form>
+
+    <script>
+        var currentAudio = null;
+
+function playSound(sound) {
+  var audio = document.getElementById(sound);
+ 
+  if (currentAudio !== null && currentAudio !== audio) {
+    currentAudio.pause();
+  }
+  
+  if (audio.paused) {
+    audio.play();
+  } else {
+    audio.pause();
+  }
+  
+  currentAudio = audio;
+}
+
+function showAlert() {
+  alert("LOGGED OUT SUCCESSFULLY!");
+}
+
+    </script>
+
+
+<!-- <form  method = "get" action="http://localhost:3000/formex0" ><button>LOGIN/REGISTER</button></form><br> -->
+<form  method = "get" action="http://localhost:3000/formex2" ><button>GOLDEN MEMBERSHIP</button></form><br>
+<form  method = "get" action="http://localhost:3000/formex0" ><button onclick="showAlert()">LOG OUT</button></form> 
+
+
+    <!-- <a ><button action="/goData" method = "get">LOGIN/REGISTER</button></a>
+
+    <a ><button >GOLD MEMBERSHIP</button></a> -->
+
+
+    <p>Copyrights reserved,HYD-500054</p>
+  </body>
+</html>
+
